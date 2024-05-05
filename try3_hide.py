@@ -2,8 +2,8 @@ import my_functions as f
 
 mat = f.load_file("u15_SOLNS/stego/pic.jpg")
 print("\ncheck before")
-for i in range(25):
-    print(mat[0][i][0], end=" ")
+for i in range(10):
+    print(mat[0][i], end=" ")
 
 
 message = "if we heard mortar shells / we'd curse more in our songs / and cut down the guitar solos"
@@ -34,7 +34,7 @@ count = 0
 print("\ncheck after")
 # TODO
 # to check your work, loop through some pixels in the top row
-# print the red value
+# print the pixel value
 
 
 

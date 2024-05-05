@@ -12,7 +12,7 @@ nums = []
 # TODO
 
 print("\ncheck a slice of nums list")
-# print(nums[0:5])
+
 
 
 
@@ -21,4 +21,4 @@ letters = []
 # TODO
 
 print("\ncheck a slice of ascii list")
-# print(letters[0:50])
+

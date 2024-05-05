@@ -4,12 +4,15 @@ mat = f.load_file("u15_SOLNS/stego/pic.jpg")
 
 # --- what do we have? ---
 print("\nitem[0], this accesses one row of the image")
+# TODO
 
 
 print("\nitem[0][0], this accesses one RGB pixel")
+# TODO
 
 
 print("\nitem[0][0][0], this accesses Red for one pixel")
+# TODO
 
 
 
