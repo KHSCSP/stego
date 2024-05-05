@@ -10,24 +10,34 @@ message = "if we heard mortar shells / we'd curse more in our songs / and cut do
 
 # make a list of ascii values
 enc_mess = []
-for letter in message:
-    enc_mess.append(ord(letter))
+# TODO
+# iterate through the message
+# use the ord() function on each letter, append to the list
+
 print("\ncheck encrypted message")
 print(enc_mess)
 
 
+
 # 'hide' those values in the image
 count = 0
-for r in range(len(mat)):
-    for c in range(len(mat[0])):
-        if count < len(enc_mess):
-            mat[r][c][0] = enc_mess[count]
-        count += 1
+# TODO
+# use indexed loops to iterate through the image mat[][]
+# if we have not reached the end of the message (if count < length of the message list)
+# then set this image pixel red value to the item from the message list
+
+
+
+
 
 
 print("\ncheck after")
-for i in range(25):
-    print(mat[0][i][0], end=" ")
+# TODO
+# to check your work, loop through some pixels in the top row
+# print the red value
 
 
-f.save(mat, "u15_SOLNS/stego/pic_mod3.jpg")
+
+
+# TODO
+# save the image with a new filename

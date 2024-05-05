@@ -6,7 +6,7 @@ import random
 # and returns a 2D array of pixel values
 def load_file(orig):
     im = Image.open(orig)
-    # im.show()
+    # im.show() # try this!
     mat = np.array(im)
     return mat
 
@@ -28,10 +28,7 @@ def save(mat, filename):
 # ex: [1, 0, 0, 1, 0, ect]
 def convert_to_list(s):
     ans = []
-    for letter in s:
-        binary = bin(ord(letter))[2:]
-        for item in binary:
-            ans.append(int(item))
+    # TODO
     return ans
 
 
@@ -42,19 +39,7 @@ def convert_to_list(s):
 # mess is a list of 0s and 1s, ex: [1,1,0,0,0,1,0,etc]
 # return the new matrix
 def hide_message(mat, mess):
-    count = 0
-    for r in range(len(mat)):
-        for c in range(len(mat[0])):
-            if count < len(mess):
-                # ex: 78 replaced with 79
-                if mat[r][c][0] % 2 == 0 and mess[count] %2 != 0:
-                    mat[r][c][0] += 1
-                # ex: 79 replaced with 78
-                elif mat[r][c][0] % 2 != 0 and mess[count] %2 == 0:
-                    mat[r][c][0] -= 1
-            else:
-                return mat
-            count += 1
+    # TODO
     return mat
 
 
