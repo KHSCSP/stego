@@ -14,7 +14,7 @@ enc_mess = []
 # iterate through the message
 # use the ord() function on each letter, append to the list
 
-print("\ncheck encrypted message")
+print("\ncheck ascii message")
 print(enc_mess)
 
 
