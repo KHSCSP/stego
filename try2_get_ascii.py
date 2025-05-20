@@ -1,9 +1,10 @@
-# ---- what is this picture saying?? ----
+print("\n--- \"decrypting\" an image ---")
+print("could this image actually be a secret message?")
 
 import my_functions as f
 
 mat = f.load_file("u15_SOLNS/stego/pic.jpg")
-print("\ncheck a slice of the original")
+print("\n--- check a slice of the original ---")
 # TODO
 
 
@@ -11,7 +12,7 @@ print("\ncheck a slice of the original")
 nums = []
 # TODO
 
-print("\ncheck a slice of nums list")
+print("\n--- check a slice of nums list ---")
 
 
 
