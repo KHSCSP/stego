@@ -1,13 +1,3 @@
-import my_functions as f
-
-mat = f.load_file("stego/pic.jpg")
-
-
-print("\n--- check the pixels before modification ---")
-for i in range(10):
-    print(mat[0][i], end=" ")
-
-
 message = "TODO type a message to hide"
 
 
@@ -18,15 +8,26 @@ enc_mess = []
 # use the ord() function on each letter, append to the list
 
 
-
-
 print("\n--- check ascii message ---")
 print("(this should be a list of ASCII values)")
-print(enc_mess)
+print(enc_mess[0:50])
 
 
 
-# 'hide' those values in the image
+
+
+import my_functions as f
+mat = f.load_file("stego/pic.jpg")
+
+print("\n--- check the pixels before modification ---")
+for i in range(10):
+    print(mat[0][i], end=" ")
+
+
+
+
+
+# 'hide' your message in the image
 count = 0
 # TODO
 # use indexed loops to iterate through the image mat[][]
