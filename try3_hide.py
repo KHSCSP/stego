@@ -50,3 +50,4 @@ print("(your message should be hidden in the pixels)")
 
 # TODO
 # save the image with a new filename
+# can you see any difference?
