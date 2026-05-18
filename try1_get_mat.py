@@ -1,6 +1,6 @@
 import my_functions as f
 
-mat = f.load_file("u15_SOLNS/stego/pic.jpg")
+mat = f.load_file("stego/pic.jpg")
 
 # --- what do we have? ---
 print("\nitem[0], this accesses one row of the image")
