@@ -22,6 +22,6 @@ print("\nitem[0][0][0], this accesses Red for one pixel")
 
 
 print("\nsaving pic with all pixels red = 0")
-# f.save(mat, "u15_SOLNS/stego/pic_mod1.jpg")
+# f.save(mat, "stego/pic_mod1.jpg")
 
 
